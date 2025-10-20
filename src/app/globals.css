@@ -1,0 +1,33 @@
+@import "tailwindcss"; 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+ 
+:root {
+  --background: #fbafca;
+  --foreground: #9e182b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #9e182b;
+    --foreground: #fbafca;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
