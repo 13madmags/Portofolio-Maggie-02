@@ -22,7 +22,6 @@ body {
   color: var(--foreground);
   font-family: "Roboto", sans-serif;
 }
-
 html {
   scroll-behavior: smooth;
 }
